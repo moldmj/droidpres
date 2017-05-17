@@ -1,0 +1,165 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\ant.xml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\sass_stdlib.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ic_launcher-web.png
+* license.txt
+* org.droidpresmodb.activity.MainActivity.iml
+* out\
+* out\production\
+* out\production\org.droidpresmodb.activity.MainActivity\
+* out\production\org.droidpresmodb.activity.MainActivity\org.droidpresmodb.activity.MainActivity.apk
+* out\production\org.droidpresmodb.activity.MainActivity\org\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\BaseApplication.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\BuildConfig.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$array.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$attr.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$dimen.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$drawable.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$id.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$layout.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$string.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$style.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R$xml.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\R.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\AbsListActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ClientListActivity$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ClientListActivity$2.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ClientListActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\DocumentListActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\InputQtyActivity$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\InputQtyActivity$2.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\InputQtyActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\MainActivity$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\MainActivity$2.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\MainActivity$3.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\MainActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ProductListActivity$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ProductListActivity$2.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ProductListActivity$3.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ProductListActivity$4.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ProductListActivity$5.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\ProductListActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\SetupActivity$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\SetupActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\SetupRootActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TableActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity$2.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity$3.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity$ExportToRCD.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity$ExportToRCDAndImportProductAvailable.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity$ImportFromRCD.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity$WiFiStateReceiver.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\activity\TransferActivity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\adapter\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\adapter\ClientListAdapter.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\adapter\DocumentListAdapter.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\adapter\ProductListAdapter.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\adapter\TableAdapter.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\db\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\db\DB.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\db\DBDroidPres.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\db\QueryHelper$FilterItem.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\db\QueryHelper$JoinItem.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\db\QueryHelper.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\db\SpinnerDB.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\dialog\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\dialog\ClientInfoDialog$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\dialog\ClientInfoDialog.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\dialog\DocHead.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\receiver\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\receiver\OnAlarmReceiver.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\receiver\OnBootReceiver.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\service\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\service\LocationDeterminer$TimeOutHandler.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\service\LocationDeterminer.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\service\LocationService$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\service\LocationService$2.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\service\LocationService.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\Const.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\DocData$MyCreator.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\DocData.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\MenuItemInfo.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\PositionManager$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\PositionManager$LocationHandler.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\PositionManager.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\Utils.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\droidpres\utils\onDocDataChange.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\Base64Coder.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\IXMLRPCSerializer.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\MethodCall.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\Tag.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCClient$1.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCClient$2.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCClient$InflatingEntity.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCClient.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCCommon.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCException.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCFault.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCSerializable.class
+* out\production\org.droidpresmodb.activity.MainActivity\org\xmlrpc\android\XMLRPCSerializer.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

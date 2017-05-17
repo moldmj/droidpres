@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ * Copyright (c) 2010 Eugene Vorobkalo.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Public License v2.0
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * 
+ * Contributors:
+ *     Eugene Vorobkalo - initial API and implementation
+ ******************************************************************************/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvQtyGoodsInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <EditText
+            android:id="@+id/eQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="right"
+            android:inputType="numberDecimal"
+            android:textColor="#0000ff"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btBackspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="55dp"
+            android:text="&lt;"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btQty7"
+                android:layout_weight="1"
+                android:text="7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQty8"
+                android:layout_weight="1"
+                android:text="8"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQty9"
+                android:layout_weight="1"
+                android:text="9"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btQty4"
+                android:layout_weight="1"
+                android:text="4"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQty5"
+                android:layout_weight="1"
+                android:text="5"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQty6"
+                android:layout_weight="1"
+                android:text="6"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btQty1"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQty2"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQty3"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btQtyPoint"
+                android:layout_weight="1"
+                android:text="."
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQty0"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btQtyC"
+                android:layout_weight="1"
+                android:text="C"
+                android:textColor="#ff0000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <include layout="@layout/ok_cancel_buttons" />
+
+</LinearLayout>

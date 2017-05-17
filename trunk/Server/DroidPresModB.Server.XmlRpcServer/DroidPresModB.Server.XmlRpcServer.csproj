@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00875EB2-24B3-414E-8123-EEFBFB8AE7D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DroidPresModB.Server.XmlRpcServer</RootNamespace>
+    <AssemblyName>DroidPresModB.Server.XmlRpcServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ERPSystemConnectors\ERPOneS77Connector.cs" />
+    <Compile Include="ERPSystemConnectors\ERPOneS8Connector.cs" />
+    <Compile Include="Interface\IErpSystem.cs" />
+    <Compile Include="Interface\IDroidPressrpc2.cs" />
+    <Compile Include="Interface\IERPSystemConnector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerDroidPres.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ERPSystem\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DroidPresModB.Server.LogManager\DroidPresModB.Server.LogManager.csproj">
+      <Project>{C546232A-99E5-42B1-8876-FF37DA0E6FD7}</Project>
+      <Name>DroidPresModB.Server.LogManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DroidPresModB.Server.XmlRpcServer.Config\DroidPresModB.Server.XmlRpcServer.Config.csproj">
+      <Project>{13f568df-5ac1-4eb0-b1e5-e0e75676aa18}</Project>
+      <Name>DroidPresModB.Server.XmlRpcServer.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xml-rpc.net\CookComputing.XmlRpc.csproj">
+      <Project>{1b4b0a58-0afb-4090-91dd-18912cc7de65}</Project>
+      <Name>CookComputing.XmlRpc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
