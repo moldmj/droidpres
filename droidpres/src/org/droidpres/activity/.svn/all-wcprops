@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity
+END
+ClientListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/ClientListActivity.java
+END
+DocumentListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/DocumentListActivity.java
+END
+ProductListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/ProductListActivity.java
+END
+InputQtyActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/50/trunk/droidpres/src/org/droidpres/activity/InputQtyActivity.java
+END
+SetupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/50/trunk/droidpres/src/org/droidpres/activity/SetupActivity.java
+END
+AbsListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/AbsListActivity.java
+END
+TransferActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/TransferActivity.java
+END
+SetupRootActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/SetupRootActivity.java
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/MainActivity.java
+END
+TableActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/55/trunk/droidpres/src/org/droidpres/activity/TableActivity.java
+END

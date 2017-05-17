@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/50/trunk/droidpres/res/layout
+END
+dlg_qty_input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/50/trunk/droidpres/res/layout/dlg_qty_input.xml
+END
+transfer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/50/trunk/droidpres/res/layout/transfer.xml
+END
+title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/droidpres/res/layout/title_bar.xml
+END
+dlg_document_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/50/trunk/droidpres/res/layout/dlg_document_head.xml
+END
+client_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/50/trunk/droidpres/res/layout/client_list_item.xml
+END
+product_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/50/trunk/droidpres/res/layout/product_list_item.xml
+END
+document_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/50/trunk/droidpres/res/layout/document_list.xml
+END
+select_entry_simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/50/trunk/droidpres/res/layout/select_entry_simple.xml
+END
+client_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/50/trunk/droidpres/res/layout/client_info.xml
+END
+client_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/50/trunk/droidpres/res/layout/client_list.xml
+END
+edit_divider.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/50/trunk/droidpres/res/layout/edit_divider.xml
+END
+product_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/50/trunk/droidpres/res/layout/product_list.xml
+END
+ok_cancel_buttons.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/50/trunk/droidpres/res/layout/ok_cancel_buttons.xml
+END
+main_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/droidpres/res/layout/main_list.xml
+END

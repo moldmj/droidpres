@@ -1,0 +1,83 @@
+10
+
+dir
+55
+http://droidpres.googlecode.com/svn/trunk/droidpres/src/org/droidpres
+http://droidpres.googlecode.com/svn
+
+
+
+2013-01-25T14:26:34.534235Z
+55
+jlab13@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a5c10e7a-a881-79aa-370f-21cd706a34a2
+
+dialog
+dir
+
+adapter
+dir
+
+utils
+dir
+
+service
+dir
+
+receiver
+dir
+
+db
+dir
+
+activity
+dir
+
+BaseApplication.java
+file
+
+
+
+
+2016-03-19T01:06:43.260019Z
+99673bd067ddc7d606805d023d075f45
+2013-01-25T14:26:34.534235Z
+55
+jlab13@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2238
+
